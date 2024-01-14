@@ -293,12 +293,13 @@ body {
 .tags {
   grid-row: 6;
   grid-column: 2/3;
-  width: 80%;
+  width: 100%;
   font-family: "PPMondwest-Regular";
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap
 }
 
 @media (max-width: 1060px) {
@@ -316,6 +317,12 @@ body {
   border-radius: 100px;
   border: 1px solid white;
   padding: 5px 15px;
+}
+
+@media (max-width: 1060px) {
+  .tag {
+    margin-bottom: 5px;
+  }
 }
 
 .contact-info a {
