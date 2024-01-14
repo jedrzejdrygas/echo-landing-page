@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "PPMondwest-Regular";
+  src: url("/static/fonts/PPMondwest-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "PPNeueBit-Bold";
+  src: url("/static/fonts/PPNeueBit-Bold.otf") format("opentype");
+}
+
+body {
+  overflow-x: hidden;
+  background-color: white;
+}
+
+#logo-container {
+  margin: 50px;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+#logo {
+  height: 60vh;
+  min-height: 300px;
+}
+
+#top-video {
+  height: 25vh;
+  mix-blend-mode: difference;
+}
+
+#about {
+  font-family: "PPNeueBit-Bold";
+  font-weight: 700;
+  font-size: 200px;
+  width: 100%;
+  padding: 0px, 50px, 0px, 50px;
+  margin-right: 100px;
+  position: relative;
+  z-index: 2;
+  color: white;
+  mix-blend-mode: difference;
+}
