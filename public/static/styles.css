@@ -8,8 +8,10 @@
   src: url("/static/fonts/PPNeueBit-Bold.otf") format("opentype");
 }
 
+
 body,
 html {
+  cursor: url("/static/img/mic.png"), auto;
   width: 100%;
   margin: 0;
   padding: 0;
